@@ -92,7 +92,7 @@ spec:
     kind: Deployment
     name: user
   minReplicas: 1
-  maxPeplicas: 10
+  maxReplicas: 10
   metrics:
   - type: Resource
     resource:
