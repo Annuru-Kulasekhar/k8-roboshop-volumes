@@ -8,7 +8,7 @@ metadata:
     tier: db
     component: mongodb
 spec:
-  clusterIp: None
+  clusterIP: None
   selector:
     project: roboshop
     tier: db
@@ -18,7 +18,7 @@ spec:
     port: 27017
     targetPort: 27017
 ---
-appVersion: apps/v1
+apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: mongodb
